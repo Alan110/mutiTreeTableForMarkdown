@@ -1,11 +1,13 @@
 
 # 多级table
-	* json作为数据不用拼表格
-	* 可以筛选
 
-## 使用例子
+feature:
+* json作为数据不用拼表格
+* 可以筛选
 
-```
+# 使用例子
+
+```javascript
 var data = {
 	head : [
 		[
@@ -49,5 +51,6 @@ new MultiLevelTable("#el", data).generate();
 ```
 
 head 是表头，每一组为一个数组
+
 content 每一个对象为一行。当一个字段为多列时，为数组。
 
