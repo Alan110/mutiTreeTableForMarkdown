@@ -52,5 +52,5 @@ new MultiLevelTable("#el", data).generate();
 
 head 是表头，每一组为一个数组
 
-content 每一个对象为一行。当一个字段为多列时，为数组。
+content 每一个对象为一行。当一个字段为多行时，为数组。
 
